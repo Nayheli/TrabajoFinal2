@@ -1,6 +1,6 @@
 # TrabajoFinal2
 
-![Foto](https://4.bp.blogspot.com/--8VElIPId5k/WXjRPqZ4M7I/AAAAAAAAexQ/I1XfeZiyqa0sejbTw-NoDvpQ5kQXvZCVwCLcBGAs/s1600/cara%2B9.png¿)
+![Foto](https://sticker.satu.site/thumbnail/300/gallery/ANd9GcRpoomrIE_tkIgY_tvqBIOsKPk6wCI6mmJqxzM7Ool6P2gelind.jpg)
 
 ## Integrantes:
 * NAYHELI ALEXANDRA CAHUAZA HUAMAN
