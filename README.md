@@ -12,3 +12,4 @@
 
 ## Propuesta:
 * Implementar la tecnologia en la educación de nuestro país con un programa que tenga todos los cursos y los respectivos temas para cada estudiante y asi estos tendran la facilidad de estudiar y realizar sus tareas
+* Agregar el grado que pertencen junto con el colegio y sus respectivos cursos.  
