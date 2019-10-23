@@ -12,4 +12,4 @@
 
 ## Propuesta:
 * Implementar una tecnologia en la educación de nuestro país con un programa que tenga implementado todos los   cursos con sus respectivos temas, en donde los estudiantes tengan la facilidad de estudiar y realizar sus estudios y tareas, minimizando tambien el uso del papel para la fabricación de libros, cuadernos, etc.
-* Agregar el grado que pertencen junto con el colegio y sus respectivos cursos.  
+* Agregar el grado que pertencen junto con el colegio y sus respectivos cursos con el fin de indicarles su respectivo horario.  
