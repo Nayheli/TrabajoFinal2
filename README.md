@@ -1,6 +1,6 @@
 # TrabajoFinal
 
-![Foto](https://sticker.satu.site/thumbnail/300/gallery/ANd9GcRpoomrIE_tkIgY_tvqBIOsKPk6wCI6mmJqxzM7Ool6P2gelind.jpg)
+![Foto](http://www.usat.edu.pe/web/wp-content/uploads/2017/09/invetigacion.jpg)
 
 ## Integrantes:
 * NAYHELI ALEXANDRA CAHUAZA HUAMAN
