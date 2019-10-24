@@ -24,3 +24,4 @@
 ## Output
 * Horarios establecidos
 * Material didactico de los cursos (digital)
+* Informacion sobre notas virtuales
