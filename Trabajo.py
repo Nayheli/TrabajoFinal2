@@ -51,10 +51,10 @@ while True:
     else:
         break
 
-cursos = input("Escriba los cursos que va a llevar:")
+cursos = []
 while True:
-    if cursos == "":
-        print("Error, ingrese dato correcto")
-        cursos = input("Escriba los cursos que va a llevar:")
-    else:
+    c = input("Escriba los cursos que va a llevar:")
+         
+    r = input("¿Lleva algun otro curso? <si o no>").lower()
+    if r != "si":
         break
