@@ -21,7 +21,7 @@ edad = int(input("Ingresa tu edad: "))
 while True:
     if edad <= 0:
         print("Error, ingrese dato correcto")
-        colegio = input("Ingresa el nombre de tu colegio: ")
+        edad = input("Ingresa tu edad: ")
     else:
         break
 
