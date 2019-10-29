@@ -1,9 +1,15 @@
-#Process
+#ENTRADA
 import os
 os.system("cls")
+lista_grado=[]
+lista_colegio=[]
+lista_dni=[]
+lista_cursos=[]
+#PROCESO
 
 print("------------Bienvenido al Aula Virtual------------")
 grado = int(input("Ingresa el grado que estas cursando: "))
+lista_grado.append(grado)
 while True:
     if grado <= 0:
         print("Error, ingrese dato correcto")
@@ -20,6 +26,7 @@ while True:
         break
 
 colegio = input("Ingresa el nombre de tu colegio: ")
+lista_colegio.append(colegio)
 while True:
     if colegio == "":
         print("Error, ingrese dato correcto")
@@ -44,6 +51,7 @@ while True:
         break
 
 dni =  int(input("Escriba el numero de su DNI: "))
+lista_dni.append(dni)
 while True:
     if dni <= 0:
         print("Error, ingrese dato correcto")
@@ -51,10 +59,16 @@ while True:
     else:
         break
 
-cursos = []
+
 while True:
-    c = input("Escriba los cursos que va a llevar:")
-         
+    cursos = input("Escriba los cursos que va a llevar:")
+    lista_cursos.append(cursos)     
     r = input("¿Lleva algun otro curso? <si o no>").lower()
     if r != "si":
         break
+
+#SALIDA
+print(lista_grado)
+print(lista_colegio)
+print(lista_dni)
+print(lista_cursos)
