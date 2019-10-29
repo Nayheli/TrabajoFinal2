@@ -11,7 +11,7 @@ print("------------Bienvenido al Aula Virtual------------")
 
 grado = int(input("Ingresa el grado que estas cursando: "))
 while True:
-    if grado >= 7:
+    if grado > 6:
         print("Error, ingrese dato correcto")
         grado = int(input("Ingresa el grado que estas cursando: "))
     else:
