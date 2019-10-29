@@ -1,6 +1,6 @@
-#input
+#Process
 
-grado = int(input("Ingresa tu grado que estas cursando: "))
+grado = int(input("Ingresa el grado que estas cursando: "))
 colegio = input("Ingresa el nombre de tu colegio: ")
 nombre = input("Escriba su nombre: ")
 apellido = input("Escriba su apellido: ")
