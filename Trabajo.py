@@ -8,10 +8,10 @@ lista_cursos=[]
 #PROCESO
 
 print("------------Bienvenido al Aula Virtual------------")
-grado = (input("Ingresa el grado que estas cursando:  "))
-lista_grado.append(grado)
+
+grado = int(input("Ingresa el grado que estas cursando: "))
 while True:
-    if grado == "":
+    if grado >= 7:
         print("Error, ingrese dato correcto")
         grado = int(input("Ingresa el grado que estas cursando: "))
     else:
