@@ -19,7 +19,7 @@
 * Nombre del estudiante
 * Apellidos del estudiante
 * DNI
-* Escoger cursos preferidos
+* Los cursos que llevara l
 
 ## Output
 * Horarios establecidos
