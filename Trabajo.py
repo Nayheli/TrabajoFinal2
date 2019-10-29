@@ -17,7 +17,7 @@ while True:
     else:
         break
 
-nivel = input("Ingrese su nivel educativo: ")
+nivel = input("Ingrese su nivel educativo<Primaria o Secuandaria>: ").lower()
 while True:
     if nivel == "":
         print("Error, ingrese dato correcto")
