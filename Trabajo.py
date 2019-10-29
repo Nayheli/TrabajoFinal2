@@ -8,12 +8,20 @@ lista_cursos=[]
 #PROCESO
 
 print("------------Bienvenido al Aula Virtual------------")
-grado = (input("Ingresa el grado que estas cursando<N° y nombre del grado>:  "))
+grado = (input("Ingresa el grado que estas cursando:  "))
 lista_grado.append(grado)
 while True:
     if grado == "":
         print("Error, ingrese dato correcto")
         grado = int(input("Ingresa el grado que estas cursando: "))
+    else:
+        break
+
+nivel = input("Ingrese su nivel educativo: ")
+while True:
+    if nivel == "":
+        print("Error, ingrese dato correcto")
+        nivel = input("Ingresa el nivel educativo que estas cursando: ")
     else:
         break
 
@@ -61,9 +69,9 @@ while True:
 
 
 while True:
-    cursos = input("Escriba los cursos que va a llevar:")
+    cursos = input("Escriba el nombre del curso que va a llevar:")
     lista_cursos.append(cursos)     
-    r = input("¿Lleva algun otro curso? <si o no>").lower()
+    r = input("¿Desea añadir algun curso? <si o no>: ").lower()
     if r != "si":
         break
 
