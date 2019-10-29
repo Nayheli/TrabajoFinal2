@@ -27,7 +27,7 @@ while True:
 
 edad = int(input("Ingresa tu edad: "))
 while True:
-    if edad <= 0:
+    if edad > 18:
         print("Error, ingrese dato correcto")
         edad = input("Ingresa tu edad: ")
     else:
