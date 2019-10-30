@@ -5,13 +5,15 @@ lista_grado=[]
 lista_colegio=[]
 lista_dni=[]
 lista_cursos=[]
+Horario_Cursos=[]
 #PROCESO
 
 print("------------Bienvenido al Aula Virtual------------")
 
 
 nivel = input("Ingrese su nivel educativo<Primaria o Secuandaria>: ").lower()
-while nivel !="primaria" and nivel != "secundaria": 
+while nivel !="primaria" and nivel != "secundaria":
+    print("-------Error-------") 
     nivel = input("Ingresa el nivel educativo correcto: ")
 
 if nivel =="secundaria" :       
@@ -22,7 +24,7 @@ if nivel =="secundaria" :
 
 if nivel =="primaria" :
     grado= int(input("Ingresa el grado que estas cursando: "))
-    
+
     while grado > 6:
         print("-----Error-----")
         grado = int(input("Ingresa el grado correcto: "))         
@@ -31,7 +33,8 @@ if nivel =="primaria" :
 edad = int(input("Ingresa tu edad: "))
 while True:
     if edad > 18:
-        print("Error, ingrese dato correcto")
+        print("-------Error------")
+        print("Ingrese dato correcto")
         edad = input("Ingresa tu edad: ")
     else:
         break
@@ -79,9 +82,16 @@ while True:
         break
 
 #SALIDA
-print("---------Horario Establecidos-----------")
+print("---------Datos del Alumno-----------")
 print("Alumno:", nombre)
 print("Edad:", edad)
 print("Grado y nivel:", grado, nivel)
 print("Registrado con el dni:", dni)
 print("Cursos escogidos:", lista_cursos)
+print("-------------Horarios--------------")
+HorarioInicialMate = 9
+HorarioFinalMate = 4
+
+if cursos == "Matematicas":
+    print("Estableciendo Horarios...")
+    print(HorarioInicialMate,"am","-",HorarioFinalMate,"pm")
