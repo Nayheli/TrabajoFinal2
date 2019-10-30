@@ -77,3 +77,9 @@ while True:
         break
 
 #SALIDA
+print("---------Horario Establecidos-----------")
+print("Alumno:", nombre)
+print("Edad:", edad)
+print("Grado y nivel:", grado, nivel)
+print("Registrado con el dni:", dni)
+print("Cursos escogidos:", lista_cursos)
