@@ -17,12 +17,14 @@ while nivel !="primaria" and nivel != "secundaria":
 if nivel =="secundaria" :       
     grado= int(input("Ingresa el grado que estas cursando: "))
     while grado > 5:
+        print("-----Error-----")
         grado = int(input("Ingresa el grado correcto: "))
 
 if nivel =="primaria" :
     grado= int(input("Ingresa el grado que estas cursando: "))
-
+    
     while grado > 6:
+        print("-----Error-----")
         grado = int(input("Ingresa el grado correcto: "))         
             
 
