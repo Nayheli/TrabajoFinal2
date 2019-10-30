@@ -9,10 +9,10 @@ lista_cursos=[]
 
 print("------------Bienvenido al Aula Virtual------------")
 
-grado = input("Ingresa el grado que estas cursando: ")
+grado = int(input("Ingresa el grado que estas cursando: "))
 lista_grado.append(grado)
 while True:
-    if grado <=0:
+    if grado <= 0:
         print("Error, ingrese dato correcto")
         grado = int(input("Ingresa el grado que estas cursando: "))
     else:
@@ -77,3 +77,9 @@ while True:
         break
 
 #SALIDA
+print("---------Horario Establecidos-----------")
+print("Alumno:", nombre)
+print("Edad:", edad)
+print("Grado y nivel:", grado, nivel)
+print("Registrado con el dni:", dni)
+print("Cursos escogidos:", lista_cursos)
