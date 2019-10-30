@@ -9,21 +9,22 @@ lista_cursos=[]
 
 print("------------Bienvenido al Aula Virtual------------")
 
-grado = int(input("Ingresa el grado que estas cursando: "))
-while True:
-    if grado > 6:
-        print("Error, ingrese dato correcto")
-        grado = int(input("Ingresa el grado que estas cursando: "))
-    else:
-        break
 
 nivel = input("Ingrese su nivel educativo<Primaria o Secuandaria>: ").lower()
-while True:
-    if nivel == "":
-        print("Error, ingrese dato correcto")
-        nivel = input("Ingresa el nivel educativo que estas cursando: ")
-    else:
-        break
+while nivel !="primaria" and nivel != "secundaria": 
+    nivel = input("Ingresa el nivel educativo correcto: ")
+
+if nivel =="secundaria" :       
+    grado= int(input("Ingresa el grado que estas cursando: "))
+    while grado > 5:
+        grado = int(input("Ingresa el grado correcto: "))
+
+if nivel =="primaria" :
+    grado= int(input("Ingresa el grado que estas cursando: "))
+
+    while grado > 6:
+        grado = int(input("Ingresa el grado correcto: "))         
+            
 
 edad = int(input("Ingresa tu edad: "))
 while True:
