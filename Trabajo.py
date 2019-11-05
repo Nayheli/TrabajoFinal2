@@ -6,6 +6,7 @@ lista_colegio=[]
 lista_dni=[]
 lista_cursos=[]
 Horario_Cursos=[]
+i = 0
 #PROCESO
 
 print("------------Bienvenido al Aula Virtual------------")
@@ -74,12 +75,16 @@ while True:
         break
 
 
-while True:
-    cursos = input("Escriba el nombre del curso que va a llevar:")
-    lista_cursos.append(cursos)     
-    r = input("¿Desea añadir algun curso? <si o no>: ").lower()
-    if r != "si":
-        break
+if nivel =="secundaria":
+    for i in range (0, 10):
+        cursos = input("Escriba el nombre del curso que va a llevar:")
+        lista_cursos.append(cursos)
+        i += 1
+if nivel =="primaria":
+    for i in range (0,6):
+        cursos = input("Escriba el nombre del curso que va a llevar:")
+        lista_cursos.append(cursos) 
+        i += 1                
 
 #SALIDA
 print("---------Datos del Alumno-----------")
@@ -88,15 +93,14 @@ print("Edad:", edad)
 print("Grado y nivel:", grado, nivel)
 print("Registrado con el dni:", dni)
 print("Cursos escogidos:", lista_cursos)
+
+
 print("-------------Horarios--------------")
 HorarioInicialMate = 9
 HorarioFinalMate = 4
 HorarioInicialLogi = 8
 HorarioFinalLogi = 3
 
-if cursos == "Matematicas":
-    print("Estableciendo Horarios...")
-    print(HorarioInicialMate,"am","-",HorarioFinalMate,"pm")
-if cursos == "Logica":
-    print("Estableciendo Horarios...")
-    print(HorarioInicialLogi,"am","-",HorarioFinalLogi,"pm")
+
+
+
