@@ -81,7 +81,7 @@ if nivel =="secundaria":
         lista_cursos.append(cursos)
         i += 1
 if nivel =="primaria":
-    for i in range (0,6):
+    for i in range (0,7):
         cursos = input("Escriba el nombre del curso que va a llevar:")
         lista_cursos.append(cursos) 
         i += 1                
@@ -94,29 +94,126 @@ print("Grado y nivel:", grado, nivel)
 print("Registrado con el dni:", dni)
 print("Cursos escogidos:", lista_cursos)
 
+#horario de clases
+Horario1 = "7:45 am - 8:30 am"
+Horario2 = "8:30 am - 9:15 am"
+Horario3 = "9:15 am - 10:00 am"
+Recreo1 = "10:00 am - 10:15 am"
+Horario4 = "10:15 am - 11:00 am"
+Horario5 = "11:00 am - 11:45 am"
+Recreo2 = "11:45 am - 12:00 pm"
+Horario6 = "12:00 pm - 12:45 pm"
+Horario7 = "12:45 pm - 1:30 pm"
 
 print("-------------Horarios--------------")
-#horario de primaria
-Horario1 = "7:00 am"
-Horario2 = "9:00 am"
-Horario3 = "11:00 am"
-Recreo1 = "12:00 am - 12:30 pm"
-Horario5 = "1:00 pm"
-Horario6 = "2:00 pm"
-#horario de secundaria
-Horario7 = "7:00 am"
-Horario8 = "9:00 am"
-Horario9 = "11:00 am"
-Recreo2 = "12:00 pm - 12:30 pm"
-Horario11 = "1:00 pm"
-Horario12 = "2:00 pm"
-Horario13 = "3:00 pm" 
-
-
-
 if nivel == "primaria":
+    print("Lunes")
     print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
+    
+    print("Martes")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
 
+    print("Miercoles")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
 
+    print("Jueves")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
 
+    print("Viernes")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
 
+if nivel == "secundaria":
+    print("Lunes")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
+
+    print("Martes")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
+
+    print("Miercoles")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
+
+    print("Jueves")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
+
+    print("Viernes")
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario3)
+    print("El recreo empieza a las",Recreo1)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario4)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario5)
+    print("El <siguiente recreo empieza a las",Recreo2)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
