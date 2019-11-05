@@ -91,7 +91,12 @@ print("Cursos escogidos:", lista_cursos)
 print("-------------Horarios--------------")
 HorarioInicialMate = 9
 HorarioFinalMate = 4
+HorarioInicialLogi = 8
+HorarioFinalLogi = 3
 
 if cursos == "Matematicas":
     print("Estableciendo Horarios...")
     print(HorarioInicialMate,"am","-",HorarioFinalMate,"pm")
+if cursos == "Logica":
+    print("Estableciendo Horarios...")
+    print(HorarioInicialLogi,"am","-",HorarioFinalLogi,"pm")
