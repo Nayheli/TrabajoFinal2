@@ -117,7 +117,7 @@ if nivel == "primaria":
     print("El <siguiente recreo empieza a las",Recreo2)
     print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
     print(lista_cursos[2],"este curso lo llevaras a las",Horario7)
-    
+
     print("Martes")
     print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
