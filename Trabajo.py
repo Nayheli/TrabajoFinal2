@@ -74,7 +74,7 @@ while True:
     else:
         break
 
-
+#
 if nivel =="secundaria":
     for i in range (0, 10):
         cursos = input("Escriba el nombre del curso que va a llevar:")
