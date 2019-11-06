@@ -77,14 +77,14 @@ while True:
 if nivel =="secundaria":
     print("Los cursos que tienes por elegir son:")
     print("Matemática, Lenguaje, Fisica, Química, Historia, Literatura, Raz.Matematica, Raz.Verbal, Computación, Ingles")
-    for i in range (0, 10):
+    for i in range (0,7):
         cursos = input("Escriba el nombre del curso que va a llevar:")
         lista_cursos.append(cursos)
         i += 1
 if nivel =="primaria":
     print("Los cursos que tienes por elegir son:")
     print("Matemática, Comunicación, Ingles, Personal Social, Literatura, Raz.Matematica, Raz.Verbal, Computación, Ciencia, Educación fisica")
-    for i in range (0,7):
+    for i in range (0,5):
         cursos = input("Escriba el nombre del curso que va a llevar:")
         lista_cursos.append(cursos) 
         i += 1                
