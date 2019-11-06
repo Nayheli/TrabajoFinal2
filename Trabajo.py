@@ -1,6 +1,7 @@
 #ENTRADA
 import os
 os.system("cls")
+lista_nombre=[]
 lista_grado=[]
 lista_colegio=[]
 lista_dni=[]
@@ -217,3 +218,34 @@ if nivel == "secundaria":
     print("El siguiente recreo empieza a las",Recreo2)
     print(lista_cursos[9],"este curso lo llevaras a las",Horario6)
     print(lista_cursos[9],"este curso lo llevaras a las",Horario7)
+
+
+
+for i in nombre:
+    if i == 'a': 
+        print(i)
+        lista_nombre.append(i)
+    elif i == 'e': 
+        print(i)
+        lista_nombre.append(i)
+    elif i == 'i': 
+        print(i)
+        lista_nombre.append(i)
+    elif i == 'o': 
+        print(i)
+        lista_nombre.append(i)
+    elif i == 'u': 
+        print(i)
+        lista_nombre.append(i)
+
+
+if lista_nombre[0]=="a":
+    print("15")
+elif lista_nombre[0]=="e":
+    print("13")
+elif lista_nombre[0]=="i":
+    print("05")
+elif lista_nombre[0]=="o":
+    print("16")
+elif lista_nombre[0]=="u":
+    print("18")    
