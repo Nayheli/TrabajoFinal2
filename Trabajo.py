@@ -107,7 +107,7 @@ Horario7 = "12:45 pm - 1:30 pm"
 
 print("-------------Horarios--------------")
 if nivel == "primaria":
-    print("Lunes")
+    print("-----Lunes-----")
     print(lista_cursos[0],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[0],"este curso lo llevaras a las",Horario2)
     print(lista_cursos[1],"este curso lo llevaras a las",Horario3)
@@ -117,7 +117,7 @@ if nivel == "primaria":
     print("El siguiente recreo empieza a las",Recreo2)
     print(lista_cursos[2],"este curso lo llevaras a las",Horario6)
 
-    print("Martes")
+    print("-----Martes-----")
     print(lista_cursos[3],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[3],"este curso lo llevaras a las",Horario2)
     print(lista_cursos[4],"este curso lo llevaras a las",Horario3)
@@ -127,7 +127,7 @@ if nivel == "primaria":
     print("El siguiente recreo empieza a las",Recreo2)
     print(lista_cursos[5],"este curso lo llevaras a las",Horario6)
 
-    print("Miercoles")
+    print("-----Miercoles-----")
     print(lista_cursos[6],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[6],"este curso lo llevaras a las",Horario2)
     print(lista_cursos[1],"este curso lo llevaras a las",Horario3)
@@ -137,7 +137,7 @@ if nivel == "primaria":
     print("El siguiente recreo empieza a las",Recreo2)
     print(lista_cursos[0],"este curso lo llevaras a las",Horario6)
 
-    print("Jueves")
+    print("-----Jueves-----")
     print(lista_cursos[2],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[2],"este curso lo llevaras a las",Horario2)
     print(lista_cursos[4],"este curso lo llevaras a las",Horario3)
@@ -147,7 +147,7 @@ if nivel == "primaria":
     print("El siguiente recreo empieza a las",Recreo2)
     print(lista_cursos[3],"este curso lo llevaras a las",Horario6)
 
-    print("Viernes")
+    print("-----Viernes-----")
     print(lista_cursos[5],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[5],"este curso lo llevaras a las",Horario2)
     print(lista_cursos[6],"este curso lo llevaras a las",Horario3)
@@ -158,7 +158,7 @@ if nivel == "primaria":
     print(lista_cursos[4],"este curso lo llevaras a las",Horario6)
 
 if nivel == "secundaria":
-    print("Lunes")
+    print("-----Lunes-----")
     print(lista_cursos[0],"este curso lo llevaras a las",Horario0)
     print(lista_cursos[0],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[1],"este curso lo llevaras a las",Horario2)
@@ -170,7 +170,7 @@ if nivel == "secundaria":
     print(lista_cursos[3],"este curso lo llevaras a las",Horario6)
     print(lista_cursos[3],"este curso lo llevaras a las",Horario7)
 
-    print("Martes")
+    print("-----Martes-----")
     print(lista_cursos[4],"este curso lo llevaras a las",Horario0)
     print(lista_cursos[4],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[5],"este curso lo llevaras a las",Horario2)
@@ -182,7 +182,7 @@ if nivel == "secundaria":
     print(lista_cursos[7],"este curso lo llevaras a las",Horario6)
     print(lista_cursos[7],"este curso lo llevaras a las",Horario7)
 
-    print("Miercoles")
+    print("-----Miercoles-----")
     print(lista_cursos[8],"este curso lo llevaras a las",Horario0)
     print(lista_cursos[8],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[9],"este curso lo llevaras a las",Horario2)
@@ -194,7 +194,7 @@ if nivel == "secundaria":
     print(lista_cursos[1],"este curso lo llevaras a las",Horario6)
     print(lista_cursos[1],"este curso lo llevaras a las",Horario7)
 
-    print("Jueves")
+    print("-----Jueves-----")
     print(lista_cursos[4],"este curso lo llevaras a las",Horario0)
     print(lista_cursos[4],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[3],"este curso lo llevaras a las",Horario2)
@@ -206,7 +206,7 @@ if nivel == "secundaria":
     print(lista_cursos[5],"este curso lo llevaras a las",Horario6)
     print(lista_cursos[5],"este curso lo llevaras a las",Horario7)
 
-    print("Viernes")
+    print("-----Viernes-----")
     print(lista_cursos[8],"este curso lo llevaras a las",Horario0)
     print(lista_cursos[8],"este curso lo llevaras a las",Horario1)
     print(lista_cursos[7],"este curso lo llevaras a las",Horario2)
