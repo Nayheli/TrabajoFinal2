@@ -1,5 +1,4 @@
 #ENTRADA
-import random 
 import os
 os.system("cls")
 lista_nombre=[]
@@ -10,7 +9,6 @@ lista_cursos=[]
 Horario_Cursos=[]
 lista_apellido=[]
 i = 0
-
 #PROCESO
 
 print("------------Bienvenido al Aula Virtual------------")
@@ -92,7 +90,7 @@ if nivel =="primaria":
         cursos = input("Escriba el nombre del curso que va a llevar:")
         lista_cursos.append(cursos) 
         i += 1                
-nota = random.randint(5,20)
+
 #SALIDA
 print("---------Datos del Alumno-----------")
 print("Alumno:", nombre)
@@ -227,6 +225,26 @@ if nivel == "secundaria":
     print(lista_cursos[1],"este curso lo llevaras a las",Horario7)
 
 
+for i in apellido:
+    if i == 'a': 
+        lista_apellido.append(i)
+    elif i == 'e': 
+        lista_apellido.append(i)
+    elif i == 'i': 
+        lista_apellido.append(i)
+    elif i == 'o': 
+        lista_apellido.append(i)
+    elif i == 'u': 
+        lista_apellido.append(i)
 
 print("---------Promedio-----------")
-print("Su nota hasta el momento es de : ",nota)
+if lista_apellido[0]=="a":
+    print("Su promedio de todos los cursos hasta el momento es : 15")
+elif  lista_apellido[0]=="e" :
+    print("Su promedio de todos los cursos hasta el momento es : 13")
+elif lista_apellido[0]=="i":
+    print("Su promedio de todos los cursos hasta el momento es : 14")
+elif lista_apellido[0]=="o":
+    print("Su promedio de todos los cursos hasta el momento es : 16")
+elif lista_apellido[0]=="u":
+    print("Su promedio de todos los cursos hasta el momento es : 18")   
