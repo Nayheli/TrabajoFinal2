@@ -245,6 +245,27 @@ while True:
         a = int(input("Resolver el siguiente problema: "))
 
 
+print("            |||||   |||||||    |||||                       ")
+print("               ||||||||  ||||||||                          ")
+print("                   ||||||||||                              ")
+print("                      ||||                                 ")
+print("                       ||                                  ")
+print("                       || |||                              ")
+print("                       ||||                                ")
+print("                       ||                                  ")
+print("                       ||                                  ")
+
+b = input("Que funcion en la planta le da el color verde?: ")
+
+while True:
+    if b == "fotosintesis":
+        print("Respuesta Correcta!")
+        break
+    else:
+        print("Respuesta Incorecta :c!")
+        b = input("Que funcion en la planta le da el color verde?")
+
+
 for i in apellido:
     if i == 'a': 
         lista_apellido.append(i)
