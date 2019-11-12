@@ -1,4 +1,5 @@
 #ENTRADA
+import random 
 import os
 os.system("cls")
 lista_nombre=[]
@@ -7,7 +8,9 @@ lista_colegio=[]
 lista_dni=[]
 lista_cursos=[]
 Horario_Cursos=[]
+lista_apellido=[]
 i = 0
+
 #PROCESO
 
 print("------------Bienvenido al Aula Virtual------------")
@@ -37,7 +40,7 @@ while True:
     if edad > 18:
         print("-------Error------")
         print("Ingrese dato correcto")
-        edad = input("Ingresa tu edad: ")
+        edad = int(input("Ingresa tu edad: "))
     else:
         break
 
@@ -89,7 +92,7 @@ if nivel =="primaria":
         cursos = input("Escriba el nombre del curso que va a llevar:")
         lista_cursos.append(cursos) 
         i += 1                
-
+nota = random.randint(5,20)
 #SALIDA
 print("---------Datos del Alumno-----------")
 print("Alumno:", nombre)
@@ -158,9 +161,9 @@ if nivel == "primaria":
     print(lista_cursos[3],"este curso lo llevaras a las",Horario3)
     print("El recreo empieza a las",Recreo1)
     print(lista_cursos[3],"este curso lo llevaras a las",Horario4)
-    print(lista_cursos[5],"este curso lo llevaras a las",Horario5)
+    print(lista_cursos[4],"este curso lo llevaras a las",Horario5)
     print("El siguiente recreo empieza a las",Recreo2)
-    print(lista_cursos[5],"este curso lo llevaras a las",Horario6)
+    print(lista_cursos[4],"este curso lo llevaras a las",Horario6)
 
 if nivel == "secundaria":
     print("-----Lunes-----")
@@ -225,31 +228,5 @@ if nivel == "secundaria":
 
 
 
-for i in nombre:
-    if i == 'a': 
-        print(i)
-        lista_nombre.append(i)
-    elif i == 'e': 
-        print(i)
-        lista_nombre.append(i)
-    elif i == 'i': 
-        print(i)
-        lista_nombre.append(i)
-    elif i == 'o': 
-        print(i)
-        lista_nombre.append(i)
-    elif i == 'u': 
-        print(i)
-        lista_nombre.append(i)
-
-
-if lista_nombre[0]=="a":
-    print("15")
-elif lista_nombre[0]=="e":
-    print("13")
-elif lista_nombre[0]=="i":
-    print("05")
-elif lista_nombre[0]=="o":
-    print("16")
-elif lista_nombre[0]=="u":
-    print("18")    
+print("---------Promedio-----------")
+print("Su nota hasta el momento es de : ",nota)
