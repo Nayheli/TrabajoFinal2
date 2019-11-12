@@ -241,7 +241,7 @@ while True:
         print("Respuesta Correcta!")
         break
     else:
-        print("Respuesta Incorrecta :c!")
+        print("Respuesta Incorrecta :( ")
         a = int(input("Resolver el siguiente problema: "))
 
 
@@ -278,7 +278,7 @@ for i in apellido:
     elif i == 'u': 
         lista_apellido.append(i)
 
-print("---------Promedio-----------")
+print("---------Simulación de su promedio-----------")
 if lista_apellido[0]=="a":
     print("Su promedio de todos los cursos hasta el momento es : 15")
 elif  lista_apellido[0]=="e" :
@@ -288,5 +288,5 @@ elif lista_apellido[0]=="i":
 elif lista_apellido[0]=="o":
     print("Su promedio de todos los cursos hasta el momento es : 16")
 elif lista_apellido[0]=="u":
-    print("Su promedio de todos los cursos hasta el momento es : 18")   
+    print("Su promedio de todos los cursos hasta el momento es : 17")   
      
