@@ -77,7 +77,7 @@ while True:
         break
 
 if nivel =="secundaria":
-    print("Los cursos que tienes por elegir son:")
+    print("-----Los cursos que tienes por elegir son:-----")
     print("Matemática, Lenguaje, Fisica, Química, Historia, Literatura, Raz.Matematica, Raz.Verbal, Computación, Ingles")
     for i in range (0,7):
         cursos = input("Escriba el nombre del curso que va a llevar:")
@@ -225,6 +225,26 @@ if nivel == "secundaria":
     print(lista_cursos[1],"este curso lo llevaras a las",Horario7)
 
 
+
+print("-----Material Didactico------")
+
+print("||||||   ||||    ||||   ||||||            ")
+print("    ||     |||  |||         ||    ||||||||")
+print("||||         ||||       ||||              ")
+print("||         |||  |||     ||        ||||||||")
+print("||||||   ||||    ||||   ||||||            ")
+
+a = int(input("Resolver el siguiente problema: "))
+
+while True:
+    if a == 4:
+        print("Respuesta Correcta!")
+        break
+    else:
+        print("Respuesta Incorrecta :c!")
+        a = int(input("Resolver el siguiente problema: "))
+
+
 for i in apellido:
     if i == 'a': 
         lista_apellido.append(i)
@@ -248,3 +268,4 @@ elif lista_apellido[0]=="o":
     print("Su promedio de todos los cursos hasta el momento es : 16")
 elif lista_apellido[0]=="u":
     print("Su promedio de todos los cursos hasta el momento es : 18")   
+     
