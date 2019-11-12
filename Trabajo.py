@@ -230,3 +230,22 @@ if nivel == "secundaria":
 
 print("---------Promedio-----------")
 print("Su nota hasta el momento es de : ",nota)
+
+
+print("-----Material Didactico------")
+
+print("||||||   ||||    ||||   ||||||            ")
+print("    ||     |||  |||         ||    ||||||||")
+print("||||         ||||       ||||              ")
+print("||         |||  |||     ||        ||||||||")
+print("||||||   ||||    ||||   ||||||            ")
+
+a = int(input("Resolver el siguiente problema: "))
+
+while True:
+    if a == 4:
+        print("Respuesta Correcta!")
+        break
+    else:
+        print("Respuesta Incorrecta :c!")
+        a = int(input("Resolver el siguiente problema: "))
