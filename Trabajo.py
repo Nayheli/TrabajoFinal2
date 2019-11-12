@@ -241,7 +241,7 @@ while True:
         print("Respuesta Correcta!")
         break
     else:
-        print("Respuesta Incorrecta :c!")
+        print("Respuesta Incorrecta :( ")
         a = int(input("Resolver el siguiente problema: "))
 
 
