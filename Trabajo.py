@@ -257,7 +257,7 @@ for i in apellido:
     elif i == 'u': 
         lista_apellido.append(i)
 
-print("---------Promedio-----------")
+print("---------Simulación de su promedio hasta el momento-----------")
 if lista_apellido[0]=="a":
     print("Su promedio de todos los cursos hasta el momento es : 15")
 elif  lista_apellido[0]=="e" :
