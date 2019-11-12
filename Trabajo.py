@@ -76,7 +76,7 @@ while True:
         break
 
 if nivel =="secundaria":
-    print("Los cursos que tienes por elegir son:")
+    print("-----Los cursos que tienes por elegir son:-----")
     print("Matemática, Lenguaje, Fisica, Química, Historia, Literatura, Raz.Matematica, Raz.Verbal, Computación, Ingles")
     for i in range (0,7):
         cursos = input("Escriba el nombre del curso que va a llevar:")
