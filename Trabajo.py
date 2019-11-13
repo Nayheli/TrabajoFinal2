@@ -3,7 +3,6 @@ import os
 os.system("cls")
 lista_nombre=[]
 lista_grado=[]
-lista_colegio=[]
 lista_dni=[]
 lista_cursos=[]
 Horario_Cursos=[]
@@ -43,7 +42,6 @@ while True:
         break
 
 colegio = input("Ingresa el nombre de tu colegio: ")
-lista_colegio.append(colegio)
 while True:
     if colegio == "":
         print("Error, ingrese dato correcto")
