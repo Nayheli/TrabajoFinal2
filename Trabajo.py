@@ -228,6 +228,8 @@ if nivel == "secundaria":
 
 print("-----Material Didactico------")
 
+print("-----MATEMATICAS-----")
+
 print("||||||   ||||    ||||   ||||||            ")
 print("    ||     |||  |||         ||    ||||||||")
 print("||||         ||||       ||||              ")
@@ -244,6 +246,7 @@ while True:
         print("Respuesta Incorrecta :( ")
         a = int(input("Resolver el siguiente problema: "))
 
+print("-----CIENCIAS-----")
 
 print("            |||||   |||||||    |||||                       ")
 print("               ||||||||  ||||||||                          ")
@@ -263,7 +266,27 @@ while True:
         break
     else:
         print("Respuesta Incorecta :c!")
-        b = input("Que funcion en la planta le da el color verde?")
+        b = input("Que funcion en la planta le da el color verde?: ")
+
+print("-----COMPUTACION-----")
+
+print("       |||||||||||||||||||||||||   |||||||    ")
+print("       ||                     ||   ||| |||    ")
+print("       ||                     ||   ||   ||    ")
+print("       ||                     ||   ||| |||    ")
+print("       |||||||||||||||||||||||||   || | ||    ")
+print("                  ||||             || | ||    ")
+print("                ||||||||           |||||||    ")
+
+c = input("La computadora esta formado por dos partes principales, Cuales son?: ")
+
+while True:
+    if c == "hardware y sofware" or c=="sofware y hardware":
+        print("Respuesta Correcta!")
+        break
+    else:
+        print("Respuesta Incorecta :c!")
+        c = input("La computadora esta formado por dos partes principales, Cuales son?: ")
 
 
 for i in apellido:
